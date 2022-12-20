@@ -1,15 +1,17 @@
 /* queery solution */
 
-@media screen and (min-width: 728px) {
+@media screen and (max-width: 728px) {
     
 
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     *{
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
+        text-align: left;
     }
 
 }
