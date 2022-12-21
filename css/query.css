@@ -1,17 +1,29 @@
 /* queery solution */
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
+    .container {
     
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 480px) {
-    *{
+    .container{
+        width: 100%;
+        
+    }
+    .row{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: left;
-        text-align: left;
+    }
+    
+    .lesson .col{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
     }
 
 }
